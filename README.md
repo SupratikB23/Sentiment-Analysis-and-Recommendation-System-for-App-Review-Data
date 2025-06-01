@@ -28,7 +28,7 @@ A hybrid sequence model combining both Bidirectional LSTM and Bidirectional GRU 
 • Review Score Aggregation: For each app, the average review score is computed using the raw review data. This value is used to enhance the quality of the recommendations.</br>
 • Recommendation Function: Given an app ID -> Its similarity scores to all other apps are retrieved -> Top N similar apps are selected (excluding the app itself) -> For each recommended app: The similarity score and average review score are collected -> A DataFrame is returned, sorted first by similarity score and then by average review score.</br>
 
-## Evaulation & Results </br>
+## Evaulation & Results: </br>
 <b>Sentiment Analysis:</b></br>
 For evaluating the sentiment analysis model, accuracy was used as the primary metric. Accuracy measures the proportion of correctly predicted sentiment labels out of all predictions, providing a straightforward indicator of overall model performance. After training and testing the model, it achieved an accuracy of 0.711, meaning it correctly classified about <b> 71% </b> of the test reviews. This indicates a reasonably good performance in predicting whether a review’s sentiment is negative, neutral, or positive.</br>
 </br>
@@ -36,3 +36,14 @@ For evaluating the sentiment analysis model, accuracy was used as the primary me
 a. Precision and Recall </br>
 b. Similarity Scores </br>
 c. Average Review Scores</br>
+
+## Some Vizualizations: </br>
+![image](https://github.com/user-attachments/assets/2f35153a-593c-4855-83d4-8264f49df62e) </br>
+<b> Sentiment Analysis - HEATMAP </b> </br>
+
+![image](https://github.com/user-attachments/assets/9b15829c-fee1-443f-9756-0a8290c36255) </br>
+<b> Sentiment Analysis - SENTIMENT DISTRIBUTION </b> </br>
+
+![image](https://github.com/user-attachments/assets/253fe73b-13f7-46ea-b5bf-34cf2463634f) </br>
+<b> Recommendation System DEMO </b>
+
