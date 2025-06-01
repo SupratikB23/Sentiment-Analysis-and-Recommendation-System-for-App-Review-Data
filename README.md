@@ -1,6 +1,6 @@
 # Sentiment-Analysis-for-App-Review-Data-Recommendation-System
 
-Sentiment Classification: 
+Sentiment Classification: </br>
 To build a sentiment classifier that can accurately analyze and predict the sentiment (positive, negative, or neutral) of user reviews collected from 1 million Google Play Store entries. This will help in understanding user satisfaction, detecting dissatisfaction trends, and enhancing app quality through actionable feedback.
 
 Personalized App Recommendation System:
