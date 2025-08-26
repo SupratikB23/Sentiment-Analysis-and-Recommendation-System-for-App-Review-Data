@@ -47,7 +47,7 @@ c. Average Review Scores</br>
 ![image](https://github.com/user-attachments/assets/253fe73b-13f7-46ea-b5bf-34cf2463634f) </br>
 <b> Recommendation System DEMO </b>
 
-<h2>📂 Repository Structure</h2>
+<h2>Repository Structure</h2>
   <pre><code>Poker Hand Prediction
 ├── NOTICE
 ├── README.md
